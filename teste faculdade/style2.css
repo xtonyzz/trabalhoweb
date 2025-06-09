@@ -1,0 +1,90 @@
+*{
+	margin:0%;
+	padding:0%;
+	text-decoration: none;
+	
+}
+
+.header2{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(dust2.webp);
+	background-position: center;
+	background-size: cover;
+}
+
+.navbar2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 15px;
+}
+
+.heading-logo2{
+	color: white;
+	font-family: "Cabin", sans-serif;
+	font-size: 15px;
+	padding: 10px 28px;
+	border: 2px solid white;
+	transition: 0.3s ease-in-out;
+	
+}
+
+.heading-logo2:hover{
+	background-color: white;
+	color: black;
+}
+
+.navbar2 ul{
+	display: flex;
+	justify-content:center;
+	align-items:center
+	
+}
+
+.list-items2{
+	margin: 0px 10px;
+}
+
+ul li a{
+	color: white;
+	font-family: "Cabin", sans-serif;
+	font-size:17px;
+	
+}
+
+.content2{
+	position: absolute;
+	top:50%;
+	left: 12%;
+	transform: translateY(-50%);
+	color: white;
+	font-family: "Cabin", sans-serif;
+	
+}
+
+.biografia{
+	font-size: 70px;
+	line-height: 90px;
+}
+
+.link-tag2{
+	display:inline-block;
+	margin: 10px 5px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 28px;
+	border: 2px solid white;
+	transition: 0.3s ease-in-out;
+}
+
+.link-tag2:hover{
+	background-color: white;
+	color: black;
+}
+.fallenpng2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+}
